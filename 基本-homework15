@@ -1,0 +1,29 @@
+#include <stdio.h> 
+
+int main(void)
+
+{
+
+	printf("請輸入現在的時間："); 
+
+	int hour51,minute; 
+
+	scanf("%d%d",&hour51,&minute); 
+
+	if((hour51==7 && minute>=30)||(hour51>=8 && hour51<=16)){ 
+
+		printf("結果：不..還是上課時間\n");
+
+	}
+
+	else{
+
+		printf("結果：下課了開心\n");
+
+	}
+
+	return 0 ;
+
+
+
+}
